@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 02 - HTML - DIO.me</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="#"><h2>Consultas</h2></a></li>
+                <li><a href="#"><h2>Emergência</h2></a></li>
+                <li><a href="#"><h2>Produtos</h2></a></li>
+                <li><a href="#"><h2>Banho e Tosa</h2></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="FOTO 4 DALMATA.jpg" width="400" />
+                <h1>
+                        <font face="tahoma">CLÍNICA VETERINÁRIA<br>
+                            LATIDOS E PATAS </font>
+                </h1>
+            </div>
+    
+            <div class="content">
+                <form onsubmit="" method="get">
+                    <fieldset>
+                        <legend>Cadastro PET</legend>
+                        <label> Nome do Animal*: </label><input type="text" name="name"><br>
+                        <label> Idade do Animal*: </label><input type="number" name="age"><br>
+                        <label> Espécie do Animal*: </label><input type="text" name="name"><br>
+                        <label> Email*: </label><input type="email" name="email"><br>
+                        <label> Assunto*: </label><input type="text" name="subject"><br>
+                        <label>Mensagem:</label>
+                        <textarea name="message"></textarea><br>
+                </fieldset>
+
+                <fieldset>   
+                        <legend> Quais serviços o seu PET precisa ?</legend>
+                        <input type="checkbox" name="opcional[]" value="Consulta"> + Consulta <br>
+                        <input type="checkbox" name="opicional[]" value="Emergência"> + Emergência <br>
+                        <input type="checkbox" name="opicional[]" value="Produtos"> + Produtos <br>
+                        <input type="checkbox" name="opicional[]" value="Banho e Tosa"> + Banho e Tosa <br>
+                </fieldset>     
+                    
+                <fieldset>
+                    <legend> Quanto pesa o seu PET ?</legend>
+                        <input type="radio" name="Peso" value="2kg à 8kg">2kg à 8kg<br>
+                        <input type="radio" name="Peso" value="9kg à 20g">9kg à 20kg<br>
+                        <input type="radio" name="Peso" value="20kg em diante">20kg em diante<br>
+                </fieldset>  
+                    
+                    <button type="reset"> Limpar</button>
+                    <button type="submit"> Enviar</button>
+             
+                 </form>  
+            </div>
+    
+            <div class="footer">
+                <h3>
+                <p>
+                    Cel:<br>
+                    (85) 945614556<br>
+                    (85) 987864152<br>
+                    Email: 
+                    contatolatidosepatas.com.br <br>
+                    Endereço: Rua Conego de Castro n° 290 - Parangaba, Fortaleza-CE, 60445045<br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15924.594950085624!2d-38.574226177630656!3d-3.777798956026153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74ea130cf541d%3A0x61ffba1ea59ba013!2sParangaba%2C%20Fortaleza%20-%20CE!5e0!3m2!1spt-BR!2sbr!4v1678060194919!5m2!1spt-BR!2sbr" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+                </h3>        
+            </div>
+        </div>
+    </div>
+</body>
+</html>
